@@ -5,5 +5,5 @@ a = 'falso'
 b = 'verdadero'
 
 puts ':)' if a == 'verdadero'
-puts ':|' if b == 'verdadero'
+puts ':|' if b == 'verdadero' && a == 'falso'
 puts ':(' if a == 'falso' && b == 'falso'
