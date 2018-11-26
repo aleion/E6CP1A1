@@ -1,4 +1,4 @@
-# Utiliza álgebra booleana para hacer un refactoring de este código
+# Utiliza algebra booleana para hacer un refactoring de este codigo
 # Para verificar la respuestas, puedes variar los valores de a y b.
 
 a = true
