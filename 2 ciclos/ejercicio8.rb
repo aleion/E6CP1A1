@@ -3,11 +3,11 @@
 
 
 10.times do |i|
-    i += 1
+  i += 1
 	if i.even?
-        print i.to_s+ 'par '
-      else
-        print i.to_s + 'impar '
+    print i.to_s+ 'par '
+  else
+    print i.to_s + 'impar '
   end
 end
 puts
