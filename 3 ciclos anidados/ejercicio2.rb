@@ -24,3 +24,13 @@ Generar el código para imprimir la siguiente tabla:
   <tbody>
  </table>
 =end
+
+a = 3
+b = "<table>\n<tbody>\n<tr>\n"
+n=1
+
+a.times do |i|
+  b += "<td> #{i+=1} </td>\n<td> #{i} </td>\n<td> #{i} </td>\n"
+end
+b += "<tr>\n<tbody>\n<table>\n"
+puts b
