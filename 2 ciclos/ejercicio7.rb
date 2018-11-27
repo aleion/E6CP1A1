@@ -1,6 +1,6 @@
 =begin
- El siguiente código debería imprimir la siguiente secuencia, pero no está
- completo, ¿puedes terminarlo?
+ El siguiente codigo deberia imprimir la siguiente secuencia, pero no esta
+ completo, puedes terminarlo?
  1
  par
  3
@@ -15,8 +15,11 @@
 
 a = 10
 a.times do |i|
-  puts i
+  i += 1
   if i.even?
     puts 'par'
+  else
+    puts i
+  
   end
 end
