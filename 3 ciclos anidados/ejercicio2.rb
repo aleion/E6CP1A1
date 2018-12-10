@@ -25,12 +25,12 @@ Generar el código para imprimir la siguiente tabla:
  </table>
 =end
 
-a = 3
+a = 4
+num = ''
 b = "<table>\n<tbody>\n<tr>\n"
-n=1
-
-a.times do |i|
-  b += "<td> #{i+=1} </td>\n<td> #{i} </td>\n<td> #{i} </td>\n"
+n = num.to_i + 1
+4.times do |num|
+  b += "<td> #{num+=1} </td>\n<td> #{n} </td>\n<td> #{n} </td>\n"
 end
-b += "<tr>\n<tbody>\n<table>\n"
+b += "</tr>\n</tbody>\n</table>\n"
 puts b
